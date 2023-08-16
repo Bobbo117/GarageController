@@ -1,33 +1,33 @@
 **Prototype Smart Garage System**
 
-**Overview**
+*Overview*
 
 -   Closes garage door automatically if left open and garage is unoccupied.
 -   Disables garage door when SUV hatch is open to prevent damage to hatch.
 -   Sensors
--   Garage door open/closed
--   Garage motion
--   Garage temperature, humidity
--   SUV hatch door open/closed
--   Ultrasonic auto presence detector
+    -   Garage door open/closed
+    -   Garage motion
+    -   Garage temperature, humidity
+    -   SUV hatch door open/closed
+    -   Ultrasonic auto presence detector
 -   Actuators
--   Kasa smart plug for garage motor
--   Lillygo TT-GO Sim7000G Cellular module with wifi is central brain
--   Optional Raspberry pi 3B+ with Home Assistant for dashboard and added control
+    -   Kasa smart plug for garage motor
+    -   Lillygo TT-GO Sim7000G Cellular module with wifi is central brain
+    -   Optional Raspberry pi 3B+ with Home Assistant for dashboard and added control
 -   Software features
--   Cellphone notification when garage door is opened or closed
--   Remote control of garage door from cellphone
--   Displays status of all garage sensors via cellular network
-    -   Car present or absent
-    -   Door open or closed
-    -   Car hatch open or closed
-    -   Motion in garage
-    -   Light on/off
-    -   Temperature/Humidity
+    -   Cellphone notification when garage door is opened or closed
+    -   Remote control of garage door from cellphone
+    -   Displays status of all garage sensors via cellular network
+        -   Car present or absent
+        -   Door open or closed
+        -   Car hatch open or closed
+        -   Motion in garage
+        -   Light on/off
+        -   Temperature/Humidity
 
-**Implementation**
+*Implementation*
 
-\#\#Garage Monitor Components\#\#
+**Garage Monitor Components**
 
 -   ESP32, PIR sensor, temperature/humidity sensor, photodiode, OLED display, shielded cable to garage door reed switch.
 
