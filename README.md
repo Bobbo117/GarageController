@@ -28,21 +28,21 @@ Overview
 Implementation
 
 1.  Garage Monitor Components
-    1.  ESP32, PIR sensor, temperature/humidity sensor, photodiode, OLED display, shielded cable to garage door reed switch.
+    a.  ESP32, PIR sensor, temperature/humidity sensor, photodiode, OLED display, shielded cable to garage door reed switch.
 
         ![](media/bca56718512cff94e3ae9f505154e238.jpeg)
 
-    2.  Use Velcro to attach one side of the reed switch to the garage door rail, the other side of the switch to the garage door.
+    b.  Use Velcro to attach one side of the reed switch to the garage door rail, the other side of the switch to the garage door.
 
         ![](media/d6b159c0feb38c88f7262479bc8c30d0.jpeg)
 
-    3.  Software: The software app GarageDoor.ino reports motion and garage door state as well as light level, temperature, and humidity wirelessly to the Lillygo module via ESPNOW . The software documents the pin connections for the sensors.
-1.  SUV Ultrasonic auto monitor
+    c.  Software: The software app GarageDoor.ino reports motion and garage door state as well as light level, temperature, and humidity wirelessly to the Lillygo module via ESPNOW . The software documents the pin connections for the sensors.
+2.  SUV Ultrasonic auto monitor
 
     ![](media/155fedb500b74103b4504253aa0dc17b.jpeg)
 
-2.  eSP32, ultrasonic sensor, bracket measure distance to floor in inches. When car is absent, it reports around 80 inches. When car is present, it reports 15 inches or so.
-3.  UltraSonic Software: The software app UltrasonicTapeMeasure.ino as mounted reports distance from ceiling of a reflective surface to the Garage Controller via ESPNOW . The software documents the pin connections for the ultrasonic sensor.
+    a.  eSP32, ultrasonic sensor, bracket measure distance to floor in inches. When car is absent, it reports around 80 inches. When car is present, it reports 15 inches or so.
+    b.  UltraSonic Software: The software app UltrasonicTapeMeasure.ino as mounted reports distance from ceiling of a reflective surface to the Garage Controller via ESPNOW . The software documents the pin connections for         the ultrasonic sensor.
 1.  SUV Hatch Sensor
 
     ![](media/e0e813020a1122cb4e3432c0207e45a9.jpeg)
