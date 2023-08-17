@@ -15,7 +15,8 @@ Disables garage door when auto hatch is open to prevent damage to hatch.
 -   Kasa smart plug for garage motor
 -   Lillygo TT-GO Sim7000G Cellular module with wifi is central brain
 -   Optional Raspberry pi 3B+ with Home Assistant for dashboard and added control
-  ##   Software features
+## Software features
+  
 -   Cellphone notification when garage door is opened or closed
 -   Remote control of garage door from cellphone
 -   Displays status of all garage sensors via cellular network
@@ -27,7 +28,7 @@ Disables garage door when auto hatch is open to prevent damage to hatch.
     -   Temperature/Humidity
 
 
-  ### Garage Monitor Components
+## Garage Monitor Components
 -   ESP32
 -   PIR sensor
 -   temperature/humidity sensor
@@ -46,7 +47,7 @@ Disables garage door when auto hatch is open to prevent damage to hatch.
 
 -   GarageDoor.ino software reports motion and garage door state, light level, temperature, and humidity wirelessly to the Lillygo module via ESPNOW . The software documents the pin connections for the sensors.
 
-    ### Ultrasonic auto monitor
+    ### Ultrasonic auto monitor determines whether car is present or not:
     
     ![](media/45ec8d44794ab97698b2ebf1c525d678.jpeg)
 
@@ -56,7 +57,7 @@ Disables garage door when auto hatch is open to prevent damage to hatch.
 -   UltrasonicTapeMeasure.ino software reports distance from ceiling of a reflective surface to the Garage Controller via ESPNOW.
 -   The software documents the pin connections for the ultrasonic sensor.
   
-  ###  SUV Hatch Sensor
+  ###  SUV Hatch Sensor reports hatch open or closed state:
 
 ![](media/67181e84636669b890651ea83edcb493.jpeg)
 
@@ -67,20 +68,28 @@ Disables garage door when auto hatch is open to prevent damage to hatch.
 
 -   AutoHatch.ino software reports hatch status to the Garage Controller via ESPNOW.
 -   The software documents the pin connections for the reed switch.
-
-  
-    ### Kasa smart plug for garage motor is controlled by GarageController
-
-  
-    ![](media/164c67ccbf249880eb1e21511afdc2cf.jpeg)
-
-    ### GarageController
-
-    ![](media/1e0b090703a91f05d0da345a1a7861db.jpeg)
-
--   LillyGo TTGO sim 7000G, Relay, temperature/humidity sensor, garage remote.
--       Open the remote control and tack 2 wires to the switch for connection to the relay.
--   GarageControler.ino software receives data wirelessly via ESPNOW from GarageDoor.ino, UltrasonicTapeMeasrure,ino, and Hatch.ino.
--       It can open or close the garage door by activating the relay, which simulates pressing the button on the remote control.
+<br>
+<br>
+    Kasa smart plug is controlled by GarageController to disable power to garage motor when car hatch is open:
+    
+  ![](media/164c67ccbf249880eb1e21511afdc2cf.jpeg)
+<br>
+<br>
+### GarageController is LillyGo TTGO sim 7000G, ioT SIM card, relay, temperature/humidity sensor, garage remote control:
+<br>
+<br>
+    
+  ![](media/1e0b090703a91f05d0da345a1a7861db.jpeg)
+<br>
+<br>
+- Open the remote control and tack 2 wires to the switch for connection to the relay.
+  <br>
+- GarageControler.ino software receives data wirelessly via ESPNOW from the sensors described above:
+  <br>
+- It can open or close the garage door by activating the relay, which simulates pressing the button on the remote control.
+  <br>
+  <br>
         -   Disables garage door if car is present AND hatch is up by signaling the Kasa smart plug.
+  <br>
+  <br>
         -   Closes garage door if the car is absent AND the garage door is open AND there has been no motion for an hour.
