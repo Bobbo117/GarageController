@@ -5,6 +5,9 @@ Closes garage door automatically if left open and garage is unoccupied.
 <br>
 Disables garage door when auto hatch is open to prevent damage to hatch.
 <br>
+<br>
+No wire connection or modification to garage door motor control circuitry.
+<br>
 ## Sensors
 -   Garage door open/closed
 -   Garage motion
@@ -16,7 +19,8 @@ Disables garage door when auto hatch is open to prevent damage to hatch.
 -   Lillygo TT-GO Sim7000G Cellular module with wifi is central brain
 -   Optional Raspberry pi 3B+ with Home Assistant for dashboard and added control
 ## Software features
-  
+
+-   Arduino C++   
 -   Cellphone notification when garage door is opened or closed
 -   Remote control of garage door from cellphone
 -   Displays status of all garage sensors via cellular network
@@ -86,7 +90,7 @@ Disables garage door when auto hatch is open to prevent damage to hatch.
   <br>
 - GarageControler.ino software receives data wirelessly via ESPNOW from the sensors described above:
   <br>
-- It can open or close the garage door by activating the relay, which simulates pressing the button on the garage remote.
+- Garage door is opened or closed by activating the relay, which simulates pressing the button on the garage remote.
   <br>
   <br>
         -   Disables garage door if car is present AND hatch is up by signaling the Kasa smart plug.
