@@ -86,7 +86,7 @@ Disables garage door when auto hatch is open to prevent damage to hatch.
   <br>
 - GarageControler.ino software receives data wirelessly via ESPNOW from the sensors described above:
   <br>
-- It can open or close the garage door by activating the relay, which simulates pressing the button on the remote control.
+- It can open or close the garage door by activating the relay, which simulates pressing the button on the garage remote.
   <br>
   <br>
         -   Disables garage door if car is present AND hatch is up by signaling the Kasa smart plug.
