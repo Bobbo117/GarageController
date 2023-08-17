@@ -10,8 +10,10 @@ No wire connection or modification to garage door motor control circuitry.
 <br>
 <br>
 Communicates via cellular ioT; no dependence on WiFi
-<br.
 <br>
+<br>
+<br>
+
 
 ## Sensors
 -   Garage door open/closed
