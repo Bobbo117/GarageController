@@ -13,8 +13,6 @@ Communicates via cellular ioT; no dependence on WiFi
 <br>
 <br>
 <br>
-
-
 ## Sensors
 -   Garage door open/closed
 -   Garage motion
