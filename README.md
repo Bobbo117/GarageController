@@ -8,6 +8,11 @@ Disables garage door when auto hatch is open to prevent damage to hatch.
 <br>
 No wire connection or modification to garage door motor control circuitry.
 <br>
+<br>
+Communicates via cellular ioT; no dependence on WiFi
+<br.
+<br>
+
 ## Sensors
 -   Garage door open/closed
 -   Garage motion
