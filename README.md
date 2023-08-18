@@ -55,7 +55,7 @@ Communicates via cellular ioT; no dependence on WiFi
 
 -   GarageDoor.ino software reports motion and garage door state, light level, temperature, and humidity wirelessly to the Lillygo module via ESPNOW . The software documents the pin connections for the sensors.
 
-    ### Ultrasonic auto monitor reports whether vehicle is present or not:
+    ### Ultrasonic vehicle monitor reports whether vehicle is present or not:
     
     ![](media/45ec8d44794ab97698b2ebf1c525d678.jpeg)
 
