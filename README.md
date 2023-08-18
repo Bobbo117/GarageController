@@ -92,7 +92,7 @@ Communicates via cellular ioT; no dependence on WiFi
 <br>
 - Open the remote control and tack 2 wires to the switch for connection to the relay.
   <br>
-- GarageControler.ino software receives data wirelessly via ESPNOW from the sensors described above:
+- GarageControler.ino software receives data wirelessly via ESPNOW from the sensors described above.
   <br>
 - Garage door is opened or closed by activating the relay, which simulates pressing the button on the garage remote.
   <br>
