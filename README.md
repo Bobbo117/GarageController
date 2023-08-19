@@ -3,7 +3,7 @@
 -  Closes garage door automatically if left open and garage is unoccupied
 -  Disables garage door when vehicle hatch is open to prevent damage to hatch
 -  No wire connection or modification to garage door motor control circuitry
--  Communicates via cellular ioT; no dependence on WiFi
+-  Communicates via cellular ioT and ESPNOW wireless protocol; no dependence on WiFi router
 ## Sensors
 -   Garage door open/closed
 -   Garage motion
