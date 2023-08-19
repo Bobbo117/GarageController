@@ -20,24 +20,24 @@ Communicates via cellular ioT; no dependence on WiFi
 -   Ultrasonic vehicle presence detector
 ## Actuators
 -   Kasa smart plug for garage motor
--   Lillygo TT-GO Sim7000G Cellular module with wifi is central brain
+-   Lillygo TT-GO Sim7000G Cellular module with wifi is central garage controller
 -   Optional Raspberry pi 3B+ with Home Assistant for dashboard and added control
 ## Software features
-
--   Arduino C++   
+-   Arduino C++, adapted from **Ambient** and **AmbientHUB**  software    
 -   Cellphone notification when garage door is opened or closed
 -   Remote control of garage door from cellphone
--   Displays status of all garage sensors via cellular network
+-   Reports status of all garage sensors via cellular network
     -   Car present or absent
     -   Door open or closed
     -   Vehicle hatch open or closed
     -   Motion in garage
     -   Light on/off
     -   Temperature/Humidity
+    -   The software documents the pin connections for the sensors.
 
 
 ## Garage Monitor Components
--   ESP32
+-   ESP32 development board
 -   PIR sensor
 -   temperature/humidity sensor
 -   photodiode
@@ -53,32 +53,29 @@ Communicates via cellular ioT; no dependence on WiFi
     ![](media/72bd16fbafb396f29f59f3b1e8627231.jpeg)
 
 
--   GarageDoor.ino software reports motion and garage door state, light level, temperature, and humidity wirelessly to the Lillygo module via ESPNOW . The software documents the pin connections for the sensors.
+-   **GarageDoor.ino** software reports motion and garage door state, light level, temperature, and humidity wirelessly to the Garage Controller via ESPNOW . 
 
     ### Ultrasonic vehicle monitor reports whether vehicle is present or not:
     
     ![](media/45ec8d44794ab97698b2ebf1c525d678.jpeg)
 
--   eSP32, ultrasonic sensor, bracket measure distance to floor in inches.
+-   eSP32 development board, ultrasonic sensor, bracket measure distance to floor in inches.
 -   When vehicle is absent, it reports around 80 inches.
 -   When vehicle is present, it reports 15 inches.
--   UltrasonicTapeMeasure.ino software reports to the Garage Controller via ESPNOW.
--   The software documents the pin connections for the ultrasonic sensor.
+-   **UltrasonicTapeMeasure.ino** software reports to the Garage Controller via ESPNOW.
   
   ###  Vehicle Hatch Sensor reports hatch open or closed state:
 
 ![](media/67181e84636669b890651ea83edcb493.jpeg)
 
--   Esp32, Reed Switch mounted just inside hatch.
-
+-   Esp32 development board, Reed Switch mounted just inside hatch.
 
     ![](media/a975849f84c5b57e345271f3d92f3f71.jpg)
 
--   AutoHatch.ino software reports hatch status to the Garage Controller via ESPNOW.
--   The software documents the pin connections for the reed switch.
+-   **AutoHatch.ino** software reports hatch status to the Garage Controller via ESPNOW.
 <br>
 <br>
-    Kasa smart plug is controlled by GarageController to disable power to garage motor when vehicle hatch is open:
+    Kasa smart plug is controlled by the GarageController to disable power to garage motor when vehicle hatch is open:
     
   ![](media/164c67ccbf249880eb1e21511afdc2cf.jpeg)
 <br>
@@ -92,7 +89,7 @@ Communicates via cellular ioT; no dependence on WiFi
 <br>
 - Open the remote control and tack 2 wires to the switch for connection to the relay.
   <br>
-- GarageControler.ino software receives data wirelessly via ESPNOW from the sensors described above.
+- **GarageControler.ino** software receives data wirelessly via ESPNOW from the sensors described above.
   <br>
 - Garage door is opened or closed by activating the relay, which simulates pressing the button on the garage remote.
   <br>
