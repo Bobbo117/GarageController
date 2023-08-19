@@ -1,17 +1,9 @@
 # Prototype Smart Garage System 
 
-Closes garage door automatically if left open and garage is unoccupied.
-<br>
-<br>
-Disables garage door when vehicle hatch is open to prevent damage to hatch.
-<br>
-<br>
-No wire connection or modification to garage door motor control circuitry.
-<br>
-<br>
-Communicates via cellular ioT; no dependence on WiFi
-<br>
-<br>
+-  Closes garage door automatically if left open and garage is unoccupied
+-  Disables garage door when vehicle hatch is open to prevent damage to hatch
+-  No wire connection or modification to garage door motor control circuitry
+-  Communicates via cellular ioT; no dependence on WiFi
 ## Sensors
 -   Garage door open/closed
 -   Garage motion
@@ -20,7 +12,7 @@ Communicates via cellular ioT; no dependence on WiFi
 -   Ultrasonic vehicle presence detector
 ## Actuators
 -   Kasa smart plug for garage motor
--   Lillygo TT-GO Sim7000G Cellular module with wifi is central garage controller
+-   Garage Controller connects to garage remote to open or close garage door
 -   Optional Raspberry pi 3B+ with Home Assistant for dashboard and added control
 ## Software features
 -   Arduino C++, adapted from **Ambient** and **AmbientHUB**  software in the current group of repositories    
@@ -59,8 +51,8 @@ Communicates via cellular ioT; no dependence on WiFi
     
     ![](media/45ec8d44794ab97698b2ebf1c525d678.jpeg)
 
--   eSP32 development board, ultrasonic sensor, bracket measure distance to floor in inches.
--   When vehicle is absent, it reports around 80 inches.
+-   eSP32 development board, ultrasonic sensor, bracket measure distance in inches.
+-   When vehicle is absent, it reports 80 inches.
 -   When vehicle is present, it reports 15 inches.
 -   **UltrasonicTapeMeasure.ino** software reports to the Garage Controller via ESPNOW.
   
