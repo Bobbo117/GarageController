@@ -23,7 +23,7 @@ Communicates via cellular ioT; no dependence on WiFi
 -   Lillygo TT-GO Sim7000G Cellular module with wifi is central garage controller
 -   Optional Raspberry pi 3B+ with Home Assistant for dashboard and added control
 ## Software features
--   Arduino C++, adapted from **Ambient** and **AmbientHUB**  software    
+-   Arduino C++, adapted from **Ambient** and **AmbientHUB**  software in the current group of repositories    
 -   Cellphone notification when garage door is opened or closed
 -   Remote control of garage door from cellphone
 -   Reports status of all garage sensors via cellular network
