@@ -32,7 +32,7 @@
 -   ESP32 development board
 -   PIR sensor
 -   temperature/humidity sensor
--   photodiode
+-   photoresistor
 -   OLED display
 -   shielded cable to garage door reed switch.
 
