@@ -33,7 +33,7 @@
 -   [PIR sensor](//www.amazon.com/DIYmall-HC-SR501-Motion-Infrared-Arduino/dp/B012ZZ4LPM)
 -   temperature/humidity sensor
 -   photoresistor
--   [OLED display](www.amazon.com/Dorhea-Display-SSD1306-Self-Luminous-Raspberry/dp/B07WPCPM5H/?th=1)
+-   [OLED display](//www.amazon.com/Dorhea-Display-SSD1306-Self-Luminous-Raspberry/dp/B07WPCPM5H/?th=1)
 -   shielded cable to garage door [magnetic reed switch.](//www.amazon.com/dp/B09BJLRK4S/)
 
     ![](media/ade95d8ab695bca9f659d096f5079013.jpeg)
