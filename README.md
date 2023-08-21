@@ -51,7 +51,7 @@
     
     ![](media/45ec8d44794ab97698b2ebf1c525d678.jpeg)
 
--   [eSP32 development board](//www.amazon.com/MELIFE-Development-Dual-Mode-Microcontroller-Integrated/dp/B07Q576VWZ?th=1)[, ultrasonic sensor](www.amazon.com/dp/B07VZBYSLX/ref=cm_sw_em_r_mt_dp_05X0C8N082YTTBTS895K?_encoding=UTF8&psc=1&pldnSite=1), bracket measure distance in inches.
+-   [eSP32 development board](//www.amazon.com/MELIFE-Development-Dual-Mode-Microcontroller-Integrated/dp/B07Q576VWZ?th=1)[, ultrasonic sensor](//www.amazon.com/dp/B07VZBYSLX/ref=cm_sw_em_r_mt_dp_05X0C8N082YTTBTS895K?_encoding=UTF8&psc=1&pldnSite=1), bracket measure distance in inches.
 -   When vehicle is absent, it reports 80 inches.
 -   When vehicle is present, it reports 15 inches.
 -   **UltrasonicTapeMeasure.ino** software reports to the Garage Controller via ESPNOW.
@@ -60,7 +60,7 @@
 
 ![](media/67181e84636669b890651ea83edcb493.jpeg)
 
--   [Esp32 development board](//www.amazon.com/MELIFE-Development-Dual-Mode-Microcontroller-Integrated/dp/B07Q576VWZ?th=1)[, Reed Switch mounted just inside hatch.](www.amazon.com/dp/B09BJLRK4S/)
+-   [Esp32 development board](//www.amazon.com/MELIFE-Development-Dual-Mode-Microcontroller-Integrated/dp/B07Q576VWZ?th=1)[, Reed Switch mounted just inside hatch.](//www.amazon.com/dp/B09BJLRK4S/)
 
     ![](media/a975849f84c5b57e345271f3d92f3f71.jpg)
 
@@ -72,7 +72,7 @@
   ![](media/164c67ccbf249880eb1e21511afdc2cf.jpeg)
 <br>
 <br>
-### GarageController is LillyGo TTGO sim 7000G, ioT SIM card, [relay](www.amazon.com/gp/product/B079FJSYGY/ref=ox_sc_act_title_11?smid=A11A70Q280RHPK&th=1), temperature/humidity sensor, garage remote control, [OLED display:](/www.amazon.com/gp/product/B07W1PT6VK)
+### GarageController is LillyGo TTGO sim 7000G, ioT SIM card, [relay](//www.amazon.com/gp/product/B079FJSYGY/ref=ox_sc_act_title_11?smid=A11A70Q280RHPK&th=1), temperature/humidity sensor, garage remote control, [OLED display:](//www.amazon.com/gp/product/B07W1PT6VK)
 <br>
 <br>
     
