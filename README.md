@@ -30,11 +30,11 @@
 
 ## Garage Monitor Components
 -   [ESP32 development board](//www.amazon.com/MELIFE-Development-Dual-Mode-Microcontroller-Integrated/dp/B07Q576VWZ?th=1)
--   PIR sensor
+-   [PIR sensor](www.amazon.com/DIYmall-HC-SR501-Motion-Infrared-Arduino/dp/B012ZZ4LPM)
 -   temperature/humidity sensor
 -   photoresistor
--   OLED display
--   shielded cable to garage door reed switch.
+-   [OLED display](www.amazon.com/gp/product/B07W1PT6VK)
+-   shielded cable to garage door [magnetic reed switch.](www.amazon.com/dp/B09BJLRK4S/)
 
     ![](media/ade95d8ab695bca9f659d096f5079013.jpeg)
     
@@ -51,7 +51,7 @@
     
     ![](media/45ec8d44794ab97698b2ebf1c525d678.jpeg)
 
--   [eSP32 development board](//www.amazon.com/MELIFE-Development-Dual-Mode-Microcontroller-Integrated/dp/B07Q576VWZ?th=1), ultrasonic sensor, bracket measure distance in inches.
+-   [eSP32 development board](//www.amazon.com/MELIFE-Development-Dual-Mode-Microcontroller-Integrated/dp/B07Q576VWZ?th=1)[, ultrasonic sensor](www.amazon.com/dp/B07VZBYSLX/ref=cm_sw_em_r_mt_dp_05X0C8N082YTTBTS895K?_encoding=UTF8&psc=1&pldnSite=1), bracket measure distance in inches.
 -   When vehicle is absent, it reports 80 inches.
 -   When vehicle is present, it reports 15 inches.
 -   **UltrasonicTapeMeasure.ino** software reports to the Garage Controller via ESPNOW.
@@ -60,7 +60,7 @@
 
 ![](media/67181e84636669b890651ea83edcb493.jpeg)
 
--   (Esp32 development board)[//www.amazon.com/MELIFE-Development-Dual-Mode-Microcontroller-Integrated/dp/B07Q576VWZ?th=1], Reed Switch mounted just inside hatch.
+-   [Esp32 development board](//www.amazon.com/MELIFE-Development-Dual-Mode-Microcontroller-Integrated/dp/B07Q576VWZ?th=1)[, Reed Switch mounted just inside hatch.](www.amazon.com/dp/B09BJLRK4S/)
 
     ![](media/a975849f84c5b57e345271f3d92f3f71.jpg)
 
@@ -72,7 +72,7 @@
   ![](media/164c67ccbf249880eb1e21511afdc2cf.jpeg)
 <br>
 <br>
-### GarageController is LillyGo TTGO sim 7000G, ioT SIM card, relay, temperature/humidity sensor, garage remote control:
+### GarageController is LillyGo TTGO sim 7000G, ioT SIM card, [relay](www.amazon.com/gp/product/B079FJSYGY/ref=ox_sc_act_title_11?smid=A11A70Q280RHPK&th=1), temperature/humidity sensor, garage remote control, [OLED display:](/www.amazon.com/gp/product/B07W1PT6VK)
 <br>
 <br>
     
@@ -91,23 +91,4 @@
   <br>
         -   Closes garage door if the vehicle is absent AND the garage door is open AND there has been no motion for an hour.
 
-
-Builtin Modules
-An ESP32 or a D1 Mini 8266 micro-controller https://www.amazon.com/MELIFE-Development-Dual-Mode-Microcontroller-Integrated/dp/B07Q576VWZ?th=1
-
-temperature / humidity sensors BME-280, MCP9808, DHTxx, AHT10, SHT20
-
-An optional SSD1306 OLED display https://www.amazon.com/gp/product/B07W1PT6VK
-
-door / window sensors https://www.amazon.com/dp/B09BJLRK4S/
-
-illumination sensors https://www.amazon.com/eBoot-Photoresistor-Sensitive-Resistor-Dependent/dp/B01N7V536K/
-
-flood sensors https://www.amazon.de/-/en/Sensor-Moisture-Splash-Arduino-Raspberry/dp/B01MRIBI2M
-
-PIR/ motion Sensors https://www.amazon.com/DIYmall-HC-SR501-Motion-Infrared-Arduino/dp/B012ZZ4LPM
-
-HC-SR04 or HC-SR04P Ultrasonic sensor https://www.amazon.com/dp/B07VZBYSLX/ref=cm_sw_em_r_mt_dp_05X0C8N082YTTBTS895K?_encoding=UTF8&psc=1&pldnSite=1
-
-DC 5V 1 Channel Relay Module Board Shield High/Low Level Trigger with Optocoupler https://www.amazon.com/gp/product/B079FJSYGY/ref=ox_sc_act_title_11?smid=A11A70Q280RHPK&th=1
 
