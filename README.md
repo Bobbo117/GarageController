@@ -67,7 +67,7 @@
 -   **AutoHatch.ino** software reports hatch status to the Garage Controller via ESPNOW.
 <br>
 <br>
-    [Kasa smart plug](https://www.amazon.com/gp/product/B07RCNB2L3/ref=ox_sc_act_title_28?smid=ATVPDKIKX0DER&th=1) is controlled by the GarageController to disable power to garage motor when vehicle hatch is open:
+    [Kasa smart plug](//www.amazon.com/gp/product/B07RCNB2L3/ref=ox_sc_act_title_28?smid=ATVPDKIKX0DER&th=1) is controlled by the GarageController to disable power to garage motor when vehicle hatch is open:
     
   ![](media/164c67ccbf249880eb1e21511afdc2cf.jpeg)
 <br>
