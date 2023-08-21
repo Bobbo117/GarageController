@@ -32,7 +32,7 @@
 -   [ESP32 development board](//www.amazon.com/MELIFE-Development-Dual-Mode-Microcontroller-Integrated/dp/B07Q576VWZ?th=1)
 -   [PIR sensor](//www.amazon.com/DIYmall-HC-SR501-Motion-Infrared-Arduino/dp/B012ZZ4LPM)
 -   [temperature/humidity sensor](//www.amazon.com/gp/product/B092495GZJ/ref=ox_sc_act_image_21?smid=A39S0U3UP1U7UG&th=1)
--   photoresistor
+-   [photoresistor](https://www.amazon.com/eBoot-Photoresistor-Sensitive-Resistor-Dependent/dp/B01N7V536K/)
 -   [OLED display](//www.amazon.com/Dorhea-Display-SSD1306-Self-Luminous-Raspberry/dp/B07WPCPM5H/?th=1)
 -   shielded cable to garage door [magnetic reed switch.](//www.amazon.com/dp/B09BJLRK4S/)
 
