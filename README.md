@@ -30,11 +30,11 @@
 
 ## Garage Monitor Components
 -   [ESP32 development board](//www.amazon.com/MELIFE-Development-Dual-Mode-Microcontroller-Integrated/dp/B07Q576VWZ?th=1)
--   [PIR sensor](www.amazon.com/DIYmall-HC-SR501-Motion-Infrared-Arduino/dp/B012ZZ4LPM)
+-   [PIR sensor](//www.amazon.com/DIYmall-HC-SR501-Motion-Infrared-Arduino/dp/B012ZZ4LPM)
 -   temperature/humidity sensor
 -   photoresistor
--   [OLED display](www.amazon.com/gp/product/B07W1PT6VK)
--   shielded cable to garage door [magnetic reed switch.](www.amazon.com/dp/B09BJLRK4S/)
+-   [OLED display](//www.amazon.com/gp/product/B07W1PT6VK)
+-   shielded cable to garage door [magnetic reed switch.](//www.amazon.com/dp/B09BJLRK4S/)
 
     ![](media/ade95d8ab695bca9f659d096f5079013.jpeg)
     
