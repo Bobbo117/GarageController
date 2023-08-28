@@ -81,7 +81,7 @@
 - [relay](//www.amazon.com/gp/product/B079FJSYGY/ref=ox_sc_act_title_11?smid=A11A70Q280RHPK&th=1)
 - [temperature/humidity sensor,](//www.amazon.com/gp/product/B092495GZJ/ref=ox_sc_act_image_21?smid=A39S0U3UP1U7UG&th=1)
 - garage remote control,
-- [OLED display:](//www.amazon.com/Dorhea-Display-SSD1306-Self-Luminous-Raspberry/dp/B07WPCPM5H/?th=1)
+- [OLED display](//www.amazon.com/Dorhea-Display-SSD1306-Self-Luminous-Raspberry/dp/B07WPCPM5H/?th=1)
 <br>
 <br>
     
