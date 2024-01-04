@@ -4,16 +4,16 @@
 -  Disables garage door when vehicle hatch is open to prevent damage to hatch
 -  No wire connection or modification to garage door motor control circuitry
 -  Communicates via cellular ioT and ESPNOW wireless protocol; no dependence on WiFi router
-## Sensors
+-  Optional Home Assistant for dashboard or redundant control
+## Sensors broadccast ESPNOW and MQTT for redundancy
 -   Garage door open/closed
 -   Garage motion
--   Garage temperature, humidity
+-   Garage temperature, humidity, light, flood
 -   Vehicle hatch open/closed
 -   Ultrasonic vehicle presence detector
 ## Actuators
 -   Kasa smart plug for garage motor
 -   Garage Controller connects to garage remote to open or close garage door
--   Optional Raspberry pi 3B+ with Home Assistant for dashboard and added control
 ## Software features
 -   Arduino C++, adapted from **Ambient** and **AmbientHUB**  software in the current group of repositories    
 -   Cellphone notification when garage door is opened or closed
@@ -24,7 +24,7 @@
     -   Vehicle hatch open or closed
     -   Motion in garage
     -   Light on/off
-    -   Temperature/Humidity
+    -   Temperature/Humidity/Flood
     -   The software documents the pin connections for the sensors.
 
 
